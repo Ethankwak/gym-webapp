@@ -9,6 +9,8 @@ const Navbar = () => {
     space-x-4 
     justify-around
     gap-10 sm:gap-32 mt-5 sm:mt-8
+    max-w-full
+
     '>
       <Link to='/'>
         <IoIosFitness className='w-12 h-12 ml-0 mr-1'/> 

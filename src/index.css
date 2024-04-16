@@ -22,3 +22,42 @@ body,
   padding: 0;
   width: 100%;
 }
+@font-face {
+  font-family: 'merriweater';
+  src:url('../public/fonts/Merriweather-Black.ttf')format('ttf');
+  font-weight:normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'merriweater';
+  src:url('../public/fonts/Merriweather-Bold.ttf')format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dm-sans';
+  src:url('../public/fonts/DMSans_18pt-Black.ttf')format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dm-sans';
+  src:url('../public/fonts/DMSans_18pt-Bold.ttf')format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'blond';
+  src:url('../public/fonts/Blonde.otf')format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+font-family: ;
+}

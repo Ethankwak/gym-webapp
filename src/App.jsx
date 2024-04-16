@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="w-full h-full flex">
+    <div className="w-full  h-screen flex flex-col ">
       <div className='flex-1'>
       <Navbar />
        <Routes>
@@ -19,19 +19,7 @@ function App() {
        </Routes>
        <Footer />
        </div>
-       <div className='w-1/2 min-w-max' >
-       <img src='banner.jpg' alt='banner' className='
-         sticky
-         top-0
-         h-3/4
-         w-auto
-         pr-8
-         rounded-bl-100px
-         ml-auto
-        '
-
-        />
-       </div>
+      
     </ div>
   )
 }
